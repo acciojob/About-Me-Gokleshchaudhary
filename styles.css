@@ -1,32 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f4f4f4; /* Background color */
+    margin: 0; /* Margin ko zero karein */
+    padding: 20px; /* Padding add karein */
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 800px; /* Container ki maximum width */
+    margin: auto; /* Center align karein */
+    background: white; /* Background color white */
+    padding: 20px; /* Padding for container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow effect */
 }
 
 h2 {
-    color: #333;
+    color: #333; /* Heading ka color */
 }
 
 .progress-bar {
-    background: #e0e0e0;
-    border-radius: 5px;
-    height: 20px;
-    width: 100%;
+    background: #e0e0e0; /* Background color of progress bar */
+    border-radius: 5px; /* Rounded corners for progress bar */
+    height: 20px; /* Height of progress bar */
+    width: 100%; /* Full width */
 }
 
 .progress {
-    background: #76c7c0;
-    height: 100%;
-    border-radius: 5px;
+    background: #76c7c0; /* Color of the filled part of progress bar */
+    height: 100%; /* Full height */
+    border-radius: 5px; /* Rounded corners */
 }
