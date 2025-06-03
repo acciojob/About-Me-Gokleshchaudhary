@@ -1,32 +1,25 @@
 body {
-    font-family: Arial, sans-serif; /* Font style */
-    background-color: #f4f4f4; /* Background color */
-    margin: 0; /* Margin ko zero karein */
-    padding: 20px; /* Padding add karein */
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-.container {
-    max-width: 800px; /* Container ki maximum width */
-    margin: auto; /* Center align karein */
-    background: white; /* Background color white */
-    padding: 20px; /* Padding for container */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow effect */
+section {
+    margin-bottom: 20px;
 }
 
-h2 {
-    color: #333; /* Heading ka color */
+h1 {
+    color: #333;
 }
 
 .progress-bar {
-    background: #e0e0e0; /* Background color of progress bar */
-    border-radius: 5px; /* Rounded corners for progress bar */
-    height: 20px; /* Height of progress bar */
-    width: 100%; /* Full width */
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
 }
 
 .progress {
-    background: #76c7c0; /* Color of the filled part of progress bar */
-    height: 100%; /* Full height */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
 }
